@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>VOID NEWS</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div style="text-align: center;">
+                <h1>NEWS.TXT</h1>
+            </div>
+            
+            <div class="nav-buttons">
+                <button class="nav-btn active" id="newsTab">⟐ NEWS</button>
+                <button class="nav-btn" id="favoritesTab">⟐ FAVORITES</button>
+            </div>
+            
+            <div id="newsSection">
+                <div class="search-section">
+                    <input type="text" id="searchInput" placeholder=">_ search_news..." />
+                    <button class="search-btn" id="searchBtn">[ SEARCH ]</button>
+                </div>
+                
+                <h2>LATEST RESULTS</h2>
+                <div id="newsContainer"></div>
+            </div>
+            
+            <div id="favoritesSection" style="display: none;">
+                <h2>★ SAVED ARTICLES</h2>
+                <div id="savedContainer"></div>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
